@@ -49,8 +49,8 @@ export default function Footer() {
               </Link>
               {" source code can be accessed on "}
               <Link
-                href="https://github.com/amirahnasihah/food-order-website"
-                title="GitHub food-order-website"
+                href="https://github.com/amirahnasihah/food-order-app-usereducer"
+                title="GitHub food-order-website-usereducer"
                 target="_blank"
                 rel="noopener noreferrer"
               >
