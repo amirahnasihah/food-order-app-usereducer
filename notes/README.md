@@ -1,5 +1,9 @@
 # Getting Started
 
+1. Start with **server-api folder** to get data from fake json rest api —→ read [server-api.md](https://github.com/amirahnasihah/food-order-app-usereducer/blob/main/notes/server-api.md)  file to see how to set up json server.
+
+2. The node_modules folder needed to configure at first. type `npm install` → run the folder `npm start`
+
 ## Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
