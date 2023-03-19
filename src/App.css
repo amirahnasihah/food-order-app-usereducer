@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Source+Code+Pro");
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.footer {
+  /* position: fixed; */
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+  size: 5px;
+  margin-right: 2px;
+}
+
+.link-btn {
+  text-decoration: none;
+}
+
+.modal {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  box-shadow: rgba(100, 100, 111, 0.3) 0px 7px 29px 0px;
+  background-color: white;
+  border: 2px solid rgb(240, 240, 240);
+  border-radius: 10px;
+  position: fixed;
+  width: 50%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  overflow: hidden;
+}
+
+
+
+/* CSS */
+.button-74 {
+  background-color: #fbeee0;
+  border: 2px solid #ff9900;
+  border-radius: 30px;
+  box-shadow: #ff9900 4px 4px 0 0;
+  color: #ff9900;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 600;
+  font-size: 18px;
+  padding: 0 18px;
+  line-height: 50px;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-74:hover {
+  background-color: #fbeee0;
+}
+
+.button-74:active {
+  box-shadow: #ff9900 2px 2px 0 0;
+  transform: translate(2px, 2px);
+}
+
+@media (min-width: 768px) {
+  .button-74 {
+    min-width: 120px;
+    padding: 0 25px;
+  }
+}
+
+.foot-credit {
+  font-family: "Source Code Pro";
+}
