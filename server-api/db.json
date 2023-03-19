@@ -1,0 +1,46 @@
+{
+  "meals": [
+    {
+      "name": "Roti Canai",
+      "description": "Malaysian flatbread that is typically served with curry or dal",
+      "price": "1.30",
+      "imageUrl": "http://res.cloudinary.com/dn7lerbpw/image/upload/v1676752967/fjjxnqzwjqtvpwhesuoq.webp",
+      "id": "LAp8D04"
+    },
+    {
+      "name": "Satay",
+      "description": "Skewered and grilled meat, usually chicken or beef, served with peanut sauce",
+      "price": "10",
+      "imageUrl": "http://res.cloudinary.com/dn7lerbpw/image/upload/v1676754235/lazboabs1fxgfts2lnx3.jpg",
+      "id": "WJ4HFVe"
+    },
+    {
+      "name": "Curry Laksa",
+      "description": "Noodle dish, a curry broth made withs and herbs coconut milk, along with various spice",
+      "price": "7",
+      "imageUrl": "http://res.cloudinary.com/dn7lerbpw/image/upload/v1676754405/n9lacygawyjxaebeoxcs.png",
+      "id": "7Al63TE"
+    },
+    {
+      "name": "Nasi Dagang",
+      "description": "Glutinous rice, steamed in coconut milk and served with side dishes",
+      "price": "12",
+      "imageUrl": "http://res.cloudinary.com/dn7lerbpw/image/upload/v1676831965/o6zwuebs79ay73dfgyvj.jpg",
+      "id": "WfSXVQ_"
+    },
+    {
+      "name": "Keropok Lekor",
+      "description": "Fish snack made from a mixture of fish, sago flour, and salt, boiled or deep-fried",
+      "price": "2",
+      "imageUrl": "http://res.cloudinary.com/dn7lerbpw/image/upload/v1676832945/fsgnr4mpg7g7vw4ajwlo.png",
+      "id": "XoN_A5C"
+    },
+    {
+      "name": "Cendol",
+      "description": "An iced sweet dessert contains droplets of rice flour jelly, coconut milk and palm sugar syrup",
+      "price": "2.50",
+      "imageUrl": "http://res.cloudinary.com/dn7lerbpw/image/upload/v1677868940/r10ydyj0qetdw6t91ki5.jpg",
+      "id": "RYtRXBr"
+    }
+  ]
+}
