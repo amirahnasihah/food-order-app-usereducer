@@ -1,5 +1,5 @@
 import cartContext from "./cart-context";
-import { useEffect, useReducer } from "react";
+import { useReducer } from "react";
 
 const initialState = {
   items: [],
