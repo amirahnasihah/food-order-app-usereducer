@@ -57,10 +57,13 @@ function AboutUs() {
               <Button
                 variant="button"
                 onClick={() => {
-                  console.info("Learn more.");
+                  console.info("For learn more");
                 }}
               >
-                <InfoIcon fontSize="small" sx={{ color: "blue", mr: 1 }} />{" "}
+                <InfoIcon
+                  fontSize="small"
+                  sx={{ color: "warning.dark", mr: 1 }}
+                />{" "}
                 Learn more
               </Button>
             </Box>
