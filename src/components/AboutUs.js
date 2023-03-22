@@ -47,9 +47,9 @@ function AboutUs() {
                 New experience
               </Typography>
               <Typography variant="body1" gutterBottom>
-                Are you tired of the same old snacks? We've got you covered! Our
-                snack food menu ordering website offers a wide variety of snacks
-                that are both traditional and trendy. With new snacks added
+                Tired of the same old snacks? We've got you covered! Our snack
+                food menu ordering website offers a wide variety of snacks that
+                are both traditional and trendy. With new snacks added
                 regularly, you'll always have something new to try. Get ready
                 for a snacking experience that will take your taste buds on an
                 adventure!
