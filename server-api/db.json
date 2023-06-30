@@ -29,18 +29,11 @@
       "id": "WfSXVQ_"
     },
     {
-      "name": "Keropok Lekor",
-      "description": "Fish snack made from a mixture of fish, sago flour, and salt, boiled or deep-fried",
-      "price": "2",
-      "imageUrl": "http://res.cloudinary.com/dn7lerbpw/image/upload/v1676832945/fsgnr4mpg7g7vw4ajwlo.png",
-      "id": "XoN_A5C"
-    },
-    {
-      "name": "Cendol",
-      "description": "An iced sweet dessert contains droplets of rice flour jelly, coconut milk and palm sugar syrup",
-      "price": "2.50",
-      "imageUrl": "http://res.cloudinary.com/dn7lerbpw/image/upload/v1677868940/r10ydyj0qetdw6t91ki5.jpg",
-      "id": "RYtRXBr"
+      "name": "Chicken Kebab",
+      "description": "Chicken kebabs are so simple to make, they are basically marinaded chicken, threaded onto skewers and cooked through. For this recipe we use a marinade of yoghurt with paprika, cumin, a little cinnamon, chilli flakes, garlic and lemon",
+      "price": "15",
+      "imageUrl": "http://res.cloudinary.com/dn7lerbpw/image/upload/v1688130341/fmru0ik0mmlucaoxfunp.jpg",
+      "id": "sHF6O7F"
     }
   ]
 }
