@@ -30,6 +30,8 @@ const AdminForm = ({ hideAddItemForm }) => {
   const [newItem, setNewItem] = useState(initialState);
   const { name, description, price, imageUrl } = newItem;
   const [previewImage, setPreviewImage] = useState(preview);
+  const CLOUD_NAME = process.env.REACT_APP_CLOUDINARY_NAME;
+  const UPLOAD_PRESET = process.env.REACT_APP_CLOUDINARY_PRESET;
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -60,9 +62,9 @@ const AdminForm = ({ hideAddItemForm }) => {
     try {
       const formData = new FormData();
       formData.append("file", file);
-      formData.append("upload_preset", "ienjl9rw");
+      formData.append("upload_preset", UPLOAD_PRESET);
       const response = await axios.post(
-        "https://api.cloudinary.com/v1_1/dn7lerbpw/image/upload",
+        `https://api.cloudinary.com/v1_1/${CLOUD_NAME}/image/upload`,
         formData
       );
       toast.success("Image Uploaded Successfully");
